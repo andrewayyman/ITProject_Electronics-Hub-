@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+     <!-- Header  -->
+  <div class="header">
+    <div class="container">
+        <a href="home.html" class="logo"><img src="images/logoblack.png" alt=""></a>
+        <!-- start of navbar -->
+        <nav>
+            <ul>
+                <li> <a href="home.html">Home</a> </li>
+                    <li> <a href="contact.html" target="_blank">Contact us</a> </li>
+                    <li> <a href="feedback.html" target="_blank">Feedback</a> </li>
+                    <li> <a href="about.html" target="_blank">About Us</a> </li>
+            </ul>
+            <div class="search">
+                <i class='bx bx-search'></i>
+            </div>
+            <div class="shopping">
+                <i class='bx bxs-cart-alt' ></i>
+            </div>
+            <div class="user">
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="sign">
+                <a class="log" href="login.html" target="_blank">login </a>
+                <a class="reg" href="signup.html" target="_blank">Register</a>
+            </div>
+        </nav>
+        <!-- End of navbar -->
+    </div>
+</div>
+<!-- End of header -->
+    <h2 class="cart">Shopping Cart<i class='bx bxs-cart' ></i> </h2>
+    <table class="table">
+       <thead>
+           <tr>
+               <th>Remove</th>
+               <th>Image</th>
+               <th>Product</th>
+               <th>Price</th>
+               <th>Quantity</th>
+               <th>Total</th>
+           </tr>
+       </thead> 
+       <tbody>
+           <tr>
+           <td> <a href="#"><i class='bx bx-x-circle' ></i></a>  </td>
+           <td>  <a href="alienware-laptop.html"> <img src="images/laptop.png.jpeg" alt="">  </td>
+           <td>Alienware M15 Ryzen Edition R5 </td>
+           <td>33,600 EGP</td>
+           <td><input type="number" value="1" min="1"max="10"></td>
+           <td>33,600 EGP</td>
+           </tr>
+           <tr>
+           <td> <a href="#"><i class='bx bx-x-circle' ></i></a>  </td>
+           <td><a href="productdetails.html"> <img src="images/photo6010489092606900138.jpg" alt=""></td>
+           <td>Samsung odyssey G5 </td>
+           <td>11,400 EGP</td>
+           <td><input type="number" value="1" min="1" max="10"></td>
+           <td>11,400 EGP</td>
+           </tr>
+       </tbody>
+    </table>
+    <div class="coupon">
+        <h3>Apply coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Your Coupon"> 
+            <button class="normal">APPLY</button>
+        </div>
+    </div>
+    <div class="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>45,000 EGB</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>45,000</strong></td>
+            </tr>
+        </table>
+        <button class="normal"> Proceed to checkout</button>
+    </div>
+
+    <!-- Start Footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="box">
+                <a href="home.html">
+                    <img src="images/logoblack.png" alt="">
+                </a>
+                <ul class="social">
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class='bx bxl-facebook' style='color:#ffffff'  ></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class='bx bxl-twitter' style='color:#ffffff' ></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class='bx bxl-youtube' style='color:#ffffff' ></i>
+                        </a>
+                    </li>
+                </ul>
+                <p class="text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum sunt error sapiente ad nesciunt,
+                    enim omnis voluptatum aperiam accusantium? Nihil cum numquam perspiciatis praesentium incidunt sit
+                    repudiandae maiores dolorem facere.
+                </p>
+
+
+            </div>
+            <div class="box">
+                <h3>Account Info</h3>
+                <ul class="ficons">
+                    <li><a href="#"> Your account </a></li>
+                    <li><a href="#"> Your wishlist </a></li>
+                    <li><a href="#"> Your orders </a></li>
+                    <li><a href="#"> Your address </a></li>
+
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Policies & FAQ </h3>
+                <ul class="ficons">
+                    <li><a href="#"> Shipping Policy </a></li>
+                    <li><a href="#"> Return Policy </a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">
+            Electronics Hub &copy;All rights Reserved. Designed by our team &lt;3
+        </p>
+    </div>
+
+    <!-- End Footer -->
+    
+</body>
+</html>
