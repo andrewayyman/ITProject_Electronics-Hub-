@@ -3,7 +3,7 @@
     flex-direction: row;
     z-index: 1;
     width: 1485px;
-
+    background-color: #009688;
 }
 
 .container {
@@ -18,7 +18,7 @@
     float: right;
     justify-content: space-between;
     position: relative;
-    background-color: var(--carribean-green);
+    background-color: #009688;
 
 }
 
@@ -48,17 +48,17 @@ ul {
 }
 
 .search {
-    color: black;
+    color: white;
     width: 40px;
     height: 30px;
     position: relative;
     margin-left: 30px;
-    border-left: 1px solid black;
+    border-left: 1px solid white;
 
 }
 
 .search i {
-    color: black;
+    color: white;
     position: absolute;
     font-size: 18px;
     top: 50%;
@@ -68,11 +68,11 @@ ul {
 }
 
 .search i:hover {
-    color: #009688;
+    color: gainsboro;
 }
 
 .shopping i {
-    color: black;
+    color: white;
     padding-left: 10px;
     font-size: 18px;
     cursor: pointer;
@@ -80,11 +80,11 @@ ul {
 }
 
 .shopping i:hover {
-    color: #009688;
+    color: gainsboro;
 }
 
 .user i {
-    color: black;
+    color: white;
     padding-left: 10px;
     font-size: 18px;
     cursor: pointer;
@@ -94,7 +94,7 @@ ul {
 }
 
 .user i:hover {
-    color: #009688;
+    color: gainsboro;
 }
 
 
@@ -102,12 +102,12 @@ ul {
 .sign a {
 
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 .sign a:hover {
-    color: #009688;
+    color: gainsboro;
 }
 
 .log {
@@ -128,7 +128,7 @@ ul {
 
 .container nav ul li a {
     display: block;
-    color: black;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -137,7 +137,7 @@ ul {
     content: '';
     width: 0;
     height: 3px;
-    background: #009688;
+    background: white;
     position: absolute;
     left: 0;
     bottom: -10px;
